@@ -1,0 +1,61 @@
+/* Base Styles */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Button Focus Styling */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* Body Styling */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/* Fancy Blue Accents */
+/* Feel free to add more styles here! */
+.custom {
+    background-color: #258cfb; /* Blue background for custom elements */
+    color: white; /* White text color */
+    border: 2px solid #258cfb; /* Blue border */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Example usage: Apply the 'custom' class to your elements */
+/* <button class="btn custom">Click Me</button> */
+
+/* You can add more rules for specific elements or components */
+
+/* Blue Text */
+.blue-text {
+    color: #258cfb;
+}
+
+/* Blue Links */
+a {
+    color: #258cfb;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Feel free to expand on these styles or create additional ones! */
